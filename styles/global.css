@@ -1,0 +1,76 @@
+/* BODY */
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+}
+/* HEADER */ 
+header {
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+header h1 {
+    color: #6B942C;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+}
+header p {
+    color: aliceblue;
+    font-size: 1rem;
+    margin: 5px 0 20px;
+}
+/* NAVBAR */
+nav ul li {        
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 100px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    padding-inline-start: 20px;}
+
+    /* Profe intente acomodar la lista para que me quede centrada con los margenes pero no pude,
+ investigue y lo deberia realizar con flex porque al ser "a" 
+ una etuiqueta de linea no me permite de otra manera o no se si tiene que ver con la especificidad */
+
+nav a {
+   color: #80cbc4;
+   font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* FOOTER */ 
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: #aaaaaa;
+}
+/* Aca me pasa lo mismo que con la lista del nav */
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 100px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+    padding-inline-start: 20px;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+address {
+    font-style: normal;
+    margin: 10px 0;
+}
