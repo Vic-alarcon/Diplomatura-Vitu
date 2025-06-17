@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --primary-color: #088138;
+    --secondary-color: #e3d314;
+    --letter-color:  #7f8c8d;
+    --white-color: #ffffff;
+    --primary-font: Montserrat, sans-serif;
+}
+/*** RESET ***/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+body {
+  font-family: var(--primary-font)
+}
+
+/*** BARRA SUPERIOR ***/
+.top_bar {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 10px;
+  text-align: right;
+  font-size: 14px;
+}
+.login a {
+  color: var(--white-color);
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+/*** HEADER CENTRAL ***/
+.main_header {
+  background-color: var(--white-color);
+  padding: 20px;
+}
+.search_cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search_box {
+  display: flex;
+  align-items: center;
+  border: 3px solid var(--primary-color);
+  border-radius: 18px;
+  padding: 5px 10px;
+}
+.search_box input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.search_box i {
+  color: var(--letter-color);
+}
+.logo {
+  height: 90px;
+}
+.cart_box {
+  display: flex;
+  align-items: center;
+  border: 3px solid var(--primary-color);
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: var(--letter-color);
+}
+
+/*** NAVBAR ***/
+.nav_menu {
+  background-color: var(--white-color);
+}
+.nav_menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+}
+.nav_menu li {
+  margin: 0 15px;
+}
+.nav_menu a {
+  text-decoration: none;
+  color: var(--letter-color);
+  font-size: 12px;
+}
+
+/*** BARRA INFERIOR ***/
+.promo_bar {
+  background-color: var(--secondary-color);
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+}
